@@ -1,0 +1,51 @@
+@keyframes wink{
+    0%{
+        height: inherit;
+        top: 150 px; 
+    }
+    50%{
+        height: 0px;
+        top: 190 px;
+    }
+    100%{   
+        height: inherit;
+        top:150px;
+    }
+}
+
+
+.eyes{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 80px;
+    width: 50px;
+    color: black;
+    border-radius: 100%;
+    box-shadow: 220px 150px 0 0 black 
+}
+
+.eyes::before{
+    content:"";
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    top:150px;
+    left:440px;
+    background-color: black;
+    border-radius: 100%;
+    animation-name: wink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; /* how long they wink for */
+}
+
+.eyes::after{
+    top: 115px;
+    left:388px;
+    content:"";
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    border:4px solid #ffd900;
+}

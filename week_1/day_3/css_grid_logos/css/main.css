@@ -1,0 +1,50 @@
+.grid-container{
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "addidas apple amazon beats"
+    "addidas-2 apple-2 amazon-2 beats-2";
+    margin-top: 10vh; /*10% of viewport height*/
+}
+
+
+.addidas{
+    grid-area: "addidas";
+}
+.apple{
+    grid-area: "apple";
+}
+.amazon{
+    grid-area: "amazon";
+}
+.beats{
+        grid-area: "beats";
+}
+
+
+.addidas-2{
+    grid-area: "addidas-2";
+}
+.apple-2{
+    grid-area: "apple-2";
+}
+.amazon-2{
+    grid-area: "amazon-2";
+}
+.beats-2{
+    grid-area: "beats-2";
+}
+
+.grid-container div{
+    justify-self: center;
+    align-self: center;
+    padding: 3em;
+    max-height: 50% vh;
+    border: 1px solid #eee
+}
+
+div img {
+    width: 100%;
+    height: 50%;
+}

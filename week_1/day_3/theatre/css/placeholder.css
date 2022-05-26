@@ -1,0 +1,141 @@
+html, body {
+    height: 100%;
+    margin: 10px;
+    padding: 10px 10px;
+    background-color: black;
+}
+
+/* navigation */
+
+
+.nav-list{
+    font-family: cursive;
+    color:gold;
+    background-color: black;
+}
+
+
+
+.title{
+    color: goldenrod;
+    text-align: center;
+    font-family:cursive;
+    margin-bottom: 100px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+#title-text{
+    margin-top: 100px;
+}
+
+
+
+/* body */
+
+.card {
+   width: 400px;
+   margin: 0;
+   border: 1px solid black;
+   display:inline-block;
+   flex-direction: row;
+   margin: 10px;
+   font-family: cursive;
+   color: black;
+}
+
+.card:nth-child(even){
+    background-color: goldenrod;
+}
+
+.card-img-top{
+        float: center;
+        width:  400px;
+        height: 300px;
+        object-fit: cover;
+        justify-content: center;
+    }
+
+.card-showtime {
+    text-align: center;
+
+}
+
+.card-text {
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+}
+
+button{
+    width: 200px;
+    background-color:green;
+    color: white;
+}
+
+
+
+
+
+
+/* footer */
+
+#map{
+    height: 300px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.bottom-info{
+    background-color: white;
+    list-style-type: none;
+    font-family: 'Times New Roman';
+    color: black;
+    padding-bottom: 30px;
+}
+
+a:link { 
+    text-decoration: none; 
+    color: goldenrod;
+}
+
+
+a:visited { 
+    text-decoration: none; 
+    color: goldenrod;
+}
+
+
+a:hover { 
+    text-decoration: none; 
+    color: gold;
+}
+
+
+figcaption{
+    text-align: center;
+}
+
+#icon{
+    height: 20px;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size:x-small;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    font-family:'Times New Roman';
+
+}

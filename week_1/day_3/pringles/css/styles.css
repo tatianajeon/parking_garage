@@ -1,0 +1,86 @@
+@import './eyes.css';
+
+@keyframes moveLeftStache {
+    0%{
+        transform: rotate(-60deg);
+    }
+    50%{
+        transform: rotate(-40deg);
+    }
+    100%{
+        transform: rotate(-60deg)
+    }
+}
+
+/* to copy press command and slash (/) */
+
+@keyframes moveRightStache {
+    0%{
+        transform: rotate(60deg);
+    }
+    50%{
+        transform: rotate(40deg);
+    }
+    100%{
+        transform: rotate(60deg)
+    }
+}
+
+
+.moustache{
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    color: black;
+    border-radius: 100%;
+    box-shadow: 
+        150px 240px 0 0 black,
+        300px 240px 0 0 black;
+    top: 50px;
+    left: 50px;
+
+}
+
+.moustache::before{
+    content:"";
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    border-bottom: 150px solid black;
+    border-radius: 0 0 0 100%;
+    top: 90px;
+    left: 60px;
+    transform: rotate(-60deg);
+    transform-origin: right 250px;
+    animation-name: moveLeftStache;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.moustache::after{
+    content: "";
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    top: 90px;
+    left: 390px;
+    border-bottom: 150px solid black;
+    border-radius: 0 0 100% 0;
+    transform: rotate(60deg);
+    transform-origin: left 250px;
+    animation: moveRightStache;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.famous{
+    text-align: center;
+
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    transform: translate(29vw, 0);
+}
