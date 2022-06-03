@@ -221,7 +221,6 @@ nav{
 }
 
 .btn-2-color{
-    background-color: white !important;
     border:none;
     color: #0651f8 !important;
 }
@@ -243,7 +242,7 @@ nav{
     width: 150px;
 }
 
-#chat-icon-bubble{ 
+#chat-bubble-icon{ 
     padding-bottom: 3px;
 }
 
