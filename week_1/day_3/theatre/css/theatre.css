@@ -14,7 +14,9 @@ html, body {
     background-color: black;
 }
 
-
+.new-color{
+    color: white !important
+}
 
 .title{
     color: goldenrod;
@@ -95,6 +97,14 @@ button{
     padding-bottom: 20px;
     box-shadow: 10px;
 }
+
+.map-image{
+    width: 33%;
+    display:flex;
+    justify-content: center;
+}
+
+
 
 .bottom-info{
     background-color: white;

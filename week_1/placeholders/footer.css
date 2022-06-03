@@ -1,0 +1,48 @@
+.try-today, .full-width{
+    width:100%;
+    background:#0651f8;
+    color: white;
+    text-align: center;
+    margin-top:50px;
+}
+
+.btn-1-color{
+    background-color: limegreen !important;
+    border:none;
+}
+
+.btn-2-color{
+    background-color: white !important;
+    border:none;
+    color: #0651f8 !important;
+}
+
+.grid-container{
+    padding-top:10px;
+    width:auto;
+}
+
+.footer-buttons{
+    width: 400px;
+    display:flex;
+    justify-content: space-evenly;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#get-started-btn{
+    width: 150px;
+}
+
+#chat-icon-bubble{ 
+    padding-bottom: 3px;
+}
+
+.footer-links{
+    padding-top:20px;
+    padding-bottom: 50px;
+}
+
+#footer-ellipse{
+    height:5px;
+}
